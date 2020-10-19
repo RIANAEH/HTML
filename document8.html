@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>table</title>
+        <style>
+            th, td { border: 1px solid; }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+            </tr>
+        </table>
+
+        <table> 
+            <caption>Monthly Savings</caption>
+            <thead>
+                <tr>
+                    <th>Month</th><th>Savings</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td>Sum</td><td>$180</td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>January</td><td>$100</td>
+                </tr>
+                <tr>
+                    <td>February</td><td>$80</td>
+                </tr> 
+            </tbody>
+         </table>
+
+        <table> 
+            <caption>Monthly Savings</caption>
+            <thead>
+                <tr>
+                    <th>Month</th><th>Savings</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Sum</td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>January</td><td>$100</td>
+                </tr>
+                <tr>
+                    <td>February</td><td rowspan="2">$80</td>
+                </tr> 
+                <tr>
+                    <td>March</td>
+                </tr>
+            </tbody>
+        </table>
+
+    <h1>내가 테이블 작성해보기</h1>
+    <table>
+        <caption>Specification values</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Grade.</th>
+                <th rowspan="2">Point.</th>
+                <th colspan="2">Strength.</th>
+                <th rowspan="2">Percent.</th>
+            </tr>
+            <tr>
+                <th>kg/mn</th><th>lb/in</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hard</td><td>0.45</td><td>56.2</td><td>80,000</td><td>20</td>
+            </tr>
+            <tr>
+                <td>Medium</td><td>0.45</td><td>49.2</td><td>70,000</td><td>25</td>
+            </tr>
+            <tr>
+                <td>Soft</td><td>0.45</td><td>42.2</td><td>60,000</td><td>30</td>
+            </tr>
+    </body>
+</html>
