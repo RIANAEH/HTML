@@ -1,0 +1,7 @@
+.html { color: purple; }
+.css { text-decoration: underline; }
+#id-selector { font-size: 40px; }
+.html.css { border: 1px solid; color: blue; }
+
+p[class] { color: silver; }
+p[class][id] { text-decoration: underline; }
